@@ -11,7 +11,6 @@ export const METADATA = {
     "React Native Engineer",
     "Software Engineer",
     "Portfolio",
-    "Devfolio",
     "Folio",
   ].join(", "),
   image:
@@ -52,15 +51,15 @@ export const TYPED_STRINGS = [
 export const SOCIAL_LINKS = [
   {
     name: "mail",
-    url: "mailto: onimolesodiq282@gmail.com",
+    url: "https://mail.google.com/mail/?view=cm&fs=1&to=onimolesodiq282@gmail.com",
   },
   {
     name: "linkedin",
-    url: "https://www.linkedin.com/in/shubhporwal/",
+    url: "https://www.linkedin.com/in/onimole-sodiq-bbaa31303",
   },
   {
     name: "github",
-    url: "https://github.com/shubh73",
+    url: "https://github.com/OnimoleTosin",
   },
 
 ];
@@ -134,6 +133,15 @@ export const PROJECTS = [
     gradient: ["#142D46", "#2E4964"],
     url: "https://github.com/shubh73/tesla",
     tech: ["react"],
+  },
+  {
+    name: "Black_Defynition",
+    image: "/projects/tesla.webp",
+    blurImage: "/projects/blur/tesla-blur.webp",
+    description: "A Social Platform",
+    gradient: ["#142D46", "#2E4964"],
+    url: "https://www.blackdefynition.com/",
+    tech: ["react, next"],
   },
 ];
 
