@@ -11,16 +11,6 @@ const Work = ({ isDesktop }) => {
   const tabItems = useMemo(
     () => [
       {
-        title: "Enoverlab Community",
-        value: "enoverlab",
-        content: (
-          <StickyScroll
-            isDesktop={isDesktop}
-            contentItems={WORK_CONTENTS.ENOVERLAB}
-          />
-        ),
-      },
-      {
         title: "BlackDefynition",
         value: "blackdefynition",
         content: (
@@ -30,6 +20,18 @@ const Work = ({ isDesktop }) => {
           />
         ),
       },
+
+      {
+        title: "Enoverlab Community",
+        value: "enoverlab",
+        content: (
+          <StickyScroll
+            isDesktop={isDesktop}
+            contentItems={WORK_CONTENTS.ENOVERLAB}
+          />
+        ),
+      },
+
     ],
     [isDesktop]
   );

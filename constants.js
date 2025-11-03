@@ -116,6 +116,15 @@ export const PROJECTS = [
   //   tech: ["typescript", "react", "nextjs", "tailwindcss", "sanity.io"],
   // },
   {
+    name: "Black_Defynition",
+    image: "/projects/bd.png",
+    blurImage: "/projects/blur/tesla-blur.webp",
+    description: "A Social Platform",
+    gradient: ["#0000", "orange"],
+    url: "https://www.blackdefynition.com/",
+    tech: ["react", "next"],
+  },
+  {
     name: "Inshorts",
     image: "/projects/inshorts.webp",
     blurImage: "/projects/blur/airbnb-blur.webp",
@@ -125,6 +134,17 @@ export const PROJECTS = [
     url: "https://shubh73-inshorts.netlify.app/",
     tech: ["react", "chakra-ui", "alan"],
   },
+
+  // {
+  //   name: "Nephyl-Soul",
+  //   image: "/projects/tesla.webp",
+  //   blurImage: "/projects/blur/tesla-blur.webp",
+  //   description: "A Tesla React Native App 🏎️",
+  //   gradient: ["#142D46", "#2E4964"],
+  //   url: "https://github.com/shubh73/tesla",
+  //   tech: ["react"],
+  // },
+
   {
     name: "Tesla",
     image: "/projects/tesla.webp",
@@ -134,50 +154,10 @@ export const PROJECTS = [
     url: "https://github.com/shubh73/tesla",
     tech: ["react"],
   },
-  {
-    name: "Black_Defynition",
-    image: "/projects/tesla.webp",
-    blurImage: "/projects/blur/tesla-blur.webp",
-    description: "A Social Platform",
-    gradient: ["#142D46", "#2E4964"],
-    url: "https://www.blackdefynition.com/",
-    tech: ["react, next"],
-  },
+
 ];
 
 export const WORK_CONTENTS = {
-  ENOVERLAB: [
-    {
-      title: "Enoverlab Community",
-      description:
-        "Enoverlab is a tech-driven community of developers and innovators collaborating on cutting-edge web products. As Team Lead Front-End Developer, I guided the creation of modern, responsive interfaces using React, Next.js, and Tailwind CSS — merging creativity with performance.",
-      content: (
-        <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Leading innovation through clean code & collaboration.
-        </div>
-      ),
-    },
-    {
-      title: "Leadership",
-      description:
-        "At Enoverlab, I led a front-end team of four developers, implementing code reviews, animation workflows with GSAP, and a scalable component library that improved UI consistency by 40%. We delivered multiple community projects with seamless user experiences and responsive layouts.",
-      content: (
-        <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Front-End Team Lead
-        </div>
-      ),
-    },
-    {
-      title: "Performance",
-      description:
-        "I optimized load times across web projects by implementing image lazy-loading, API caching, and dynamic imports. The result: faster page loads, reduced bounce rate, and higher engagement across the platform.",
-      content: (
-        <div className="h-full w-full flex items-center justify-center text-white px-4">
-          Front-End Developer
-        </div>
-      ),
-    },
-  ],
   DUKAAN: [
     {
       title: "BlackDefynition",
@@ -220,6 +200,40 @@ export const WORK_CONTENTS = {
       ),
     },
   ],
+
+  ENOVERLAB: [
+    {
+      title: "Enoverlab Community",
+      description:
+        "Enoverlab is a tech-driven community of developers and innovators collaborating on cutting-edge web products. As Team Lead Front-End Developer, I guided the creation of modern, responsive interfaces using React, Next.js, and Tailwind CSS — merging creativity with performance.",
+      content: (
+        <div className="h-full w-full flex items-center justify-center text-white px-4">
+          Leading innovation through clean code & collaboration.
+        </div>
+      ),
+    },
+    {
+      title: "Leadership",
+      description:
+        "At Enoverlab, I led a front-end team of four developers, implementing code reviews, animation workflows with GSAP, and a scalable component library that improved UI consistency by 40%. We delivered multiple community projects with seamless user experiences and responsive layouts.",
+      content: (
+        <div className="h-full w-full flex items-center justify-center text-white px-4">
+          Front-End Team Lead
+        </div>
+      ),
+    },
+    {
+      title: "Performance",
+      description:
+        "I optimized load times across web projects by implementing image lazy-loading, API caching, and dynamic imports. The result: faster page loads, reduced bounce rate, and higher engagement across the platform.",
+      content: (
+        <div className="h-full w-full flex items-center justify-center text-white px-4">
+          Front-End Developer
+        </div>
+      ),
+    },
+  ],
+
   // AVIATE: [
   //   {
   //     title: "Aviate",
