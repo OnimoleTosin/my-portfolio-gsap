@@ -53,7 +53,7 @@ const Footer = () => {
               <button onClick={handleClick} className="link cursor-none">
                 <span className="block animate-bounce">❤️</span>
               </button>{" "}
-              by <span className="text-white">ONImole Tosin</span>
+              by <span className="text-white block animate-pulse">ONImole Tosin</span>
             </p>
           </div>
         </div>
