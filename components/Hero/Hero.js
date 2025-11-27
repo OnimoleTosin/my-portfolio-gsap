@@ -85,7 +85,7 @@ const Hero = () => {
           <span className={`relative ${styles.emphasize} staggered-reveal`}>
             ONImole
           </span>
-          <span className="staggered-reveal"> Sodiq</span>
+          <span className="staggered-reveal"> Tosin </span>
         </h1>
         <p>
           <span

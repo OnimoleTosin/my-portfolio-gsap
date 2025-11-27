@@ -1,12 +1,12 @@
 export const METADATA = {
-  author: "Onimole Sodiq",
-  title: "Portfolio | Onimole Sodiq",
+  author: "Onimole Tosin",
+  title: "Portfolio | Onimole Tosin",
   description:
-    "Onimole Sodiq is a passionate Frontend Engineer, dedicated to crafting aesthetic and modern apps that captivate and engage users.",
+    "Onimole Tosin is a passionate Frontend Engineer, dedicated to crafting aesthetic and modern apps that captivate and engage users.",
   siteUrl: "https://www.shubhporwal.me/",
   twitterHandle: "@shubhporwal24",
   keywords: [
-    "Onimole Sodiq",
+    "Onimole Tosin",
     "Frontend Engineer",
     "React Native Engineer",
     "Software Engineer",
